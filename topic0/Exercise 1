@@ -1,0 +1,23 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercice 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is my todo list for exercise 1">
+    <meta name="keywords" content="todo,list,exetcice,bootcamp,learning">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <h1>My to do list</h1>
+</head>
+<body>
+<ol>
+    <li>lear html</li>
+    <li>learn css</li>
+    <li>make exercises</li>
+    <li>Submit them to git</li>
+    <li>Find a team mate for the finalproject.</li>
+</ol>
+</body>
+</html>
