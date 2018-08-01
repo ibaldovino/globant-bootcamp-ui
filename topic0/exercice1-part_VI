@@ -1,0 +1,38 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Part VI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h2>Part VI of exercise 1</h2>
+<form id="sign-up" action="script.php" method="POST"> 
+    <ul>
+        <li><label for="first name"> First name:</label> <input type="text" name="firstname" id="SU-firstname" value="" required ></li>
+        <li><label for="last name"> Last Name:</label> <input type="text" name="lastname" id="SU-lastname" value="" required></li>
+        <li><label for="email"> Email:</label> <input type="email" name="email" id="SU-email" required></li>
+        <li><label for="birthday"> Birthday:</label> <input type="date" name="birthday" id="SU-birthday" value=""required></li>
+    </ul>
+    <ul>
+        <li><label for="Favorite sport"> Favorite sport:</label>
+        <select required  name="Favorite Sport" id="SU-favSport">
+            <option selected="selected" value="Select Sport">Select Sport</option>
+            <option value="Soccer">Soccer</option>
+            <option value="Basketball">Basketball</option>
+            <option value="Mountain Bike">Mountain Bike</option>
+            <option value="Kayak">Kayak</option>
+            <option value="Hockey">Hockey</option>
+        </select></li>
+        <!--the size of the text area will be added with the css-->
+        <li><label for="Bio">User bio:</label> <input type="textarea" name="userBio" id="SU-userBio" required></li>
+    </ul>
+
+</form>
+
+  
+</body>
+</html>
